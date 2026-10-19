@@ -1,0 +1,7 @@
+Options -Indexes
+AddDefaultCharset UTF-8
+DirectoryIndex index.php
+
+<Files "config.php">
+    Require all denied
+</Files>
